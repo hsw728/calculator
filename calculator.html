@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -34,7 +34,9 @@
 
 				// 최소값 버튼 눌렀을 때 호출되는 함수
 				document.getElementById("min").onclick = function() {
-
+  var num1 = parseInt(document.getElementById("num1").value);
+  var num2 = parseInt(document.getElementById("num2").value);
+  alert(Math.min(num1, num2));
 				};
 
 				// 최대값 버튼 눌렀을 때 호출되는 함수
